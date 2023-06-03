@@ -4,6 +4,7 @@ import Adauto from "../assets/adauto.png";
 
 import Demoadauto from "../assets/demoadauto.gif";
 import Massage from "../assets/massage.jpeg";
+import Promo from "../assets/promo.jpeg";
 import Testimonials from "../components/Testimonials.vue";
 </script>
 
@@ -22,6 +23,12 @@ import Testimonials from "../components/Testimonials.vue";
       desc="Toque quântico de cura que elimina suas dores"
       is-small
       :photo="Massage"
+    />
+    <Showcase
+      text="Estamos com promoção de 4 Sessões pelo preço de 3"
+      desc="Não perca tempo e agende já sua sessão!"
+      is-small
+      :photo="Promo"
     />
     <Testimonials
       :info="[
