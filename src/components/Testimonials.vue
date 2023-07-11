@@ -94,8 +94,11 @@ h1 {
   transition: 0.4s ease-in-out;
 }
 .btn:hover {
-  background-color: #f5f5f5;
+  background-color: #fff;
   color: #181818;
+  border: 1px solid #000;
+  letter-spacing: 1px;
+  box-shadow: 1px 1px 6px #000;
 }
 
 @media (max-width: 700px) {

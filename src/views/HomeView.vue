@@ -3,8 +3,8 @@ import Showcase from "../components/Showcase.vue";
 import Adauto from "../assets/adauto.png";
 
 import Demoadauto from "../assets/demoadauto.gif";
-import Massage from "../assets/massage.jpeg";
-import Promo from "../assets/promo.jpeg";
+import Massage from "../assets/massage-3.png";
+import Promo from "../assets/promo.png";
 import Testimonials from "../components/Testimonials.vue";
 </script>
 
@@ -28,6 +28,7 @@ import Testimonials from "../components/Testimonials.vue";
       text="Estamos com promoção de 4 Sessões pelo preço de 3"
       desc="Não perca tempo e agende já sua sessão!"
       is-small
+      reverse
       :photo="Promo"
     />
     <Testimonials

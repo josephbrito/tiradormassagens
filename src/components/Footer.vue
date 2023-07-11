@@ -27,7 +27,9 @@
         <v-icon name="co-facebook-f" fill="blue" scale="1.3" />
       </a>
 
-      <v-icon name="co-instagram" fill="pink" />
+      <a target="_blank" href="https://instagram.com/tiradormassagens">
+        <v-icon name="co-instagram" fill="pink" />
+      </a>
     </div>
   </footer>
 </template>
